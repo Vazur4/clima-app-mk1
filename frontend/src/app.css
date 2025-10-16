@@ -1,0 +1,67 @@
+/* App.css */
+
+/* Centrar todo vertical y horizontal */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: aqua;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Centra horizontal */
+  align-items: center;     /* Centra vertical */
+  background-color: #004866; /* Color de fondo suave */
+}
+
+/* Contenedor principal */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Espacio entre los divs */
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs y botones */
+.app-container input, .app-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Divs que muestran resultados */
+.result-div {
+  padding: 10px;
+  background-color: #340a0a;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.search-container input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  width: 250px;
+}
